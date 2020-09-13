@@ -1,4 +1,4 @@
-package ru.kotadmi.Laba1.Ex5;
+package ru.kotadmi.Laba1.Pr1.Ex5;
 
 public class Main {
     public static void main(String[] args) {
