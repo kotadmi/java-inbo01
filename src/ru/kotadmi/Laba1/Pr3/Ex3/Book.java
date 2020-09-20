@@ -1,14 +1,9 @@
-package ru.kotadmi.Laba1.Pr2.Ex3;
+package ru.kotadmi.Laba1.Pr3.Ex3;
 
 public class Book {
-    private String name, genre;
-    private int numberOfPages;
+    private String name, author, genre;
+    private int numberOfPages,date;
 
-    public Book(String genre, String name, int pageCount) {
-        this.genre = genre;
-        this.name = name;
-        this.numberOfPages = numberOfPages;
-    }
     public String getGenre() {
         return genre;
     }
@@ -17,12 +12,28 @@ public class Book {
         this.genre = genre;
     }
 
+    public int getDate() {
+        return date;
+    }
+
+    public void setDate(int date) {
+        this.date = date;
+    }
+
     public String getName() {
         return name;
     }
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public String getAuthor() {
+        return author;
+    }
+
+    public void setAuthor(String author) {
+        this.author = author;
     }
 
     public int getNumberOfPages() {
@@ -37,8 +48,11 @@ public class Book {
     public String toString() {
         return "Book {" +
                 "genre = '" + genre + '\'' +
+                ", date = '" + date + '\'' +
                 ", name = '" + name + '\'' +
+                ", author = '" + author + '\'' +
                 ", number of pages = " + numberOfPages +
                 '}';
     }
 }
+
