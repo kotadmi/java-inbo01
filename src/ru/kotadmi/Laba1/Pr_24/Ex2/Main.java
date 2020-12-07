@@ -4,10 +4,10 @@ public class Main {
 
     public static void main(String[] args) {
         System.out.println(
-                Address.parseWithSplit("England, London, Baker Street, 221b", ",")
+                Address.parseWithSplit("England, London, BakerStreet, 221b",",")
         );
         System.out.println(
-                Address.parseWithStringTokenizer("England, London, Baker Street, 221b", ",")
+                Address.parseWithStringTokenizer("England, London, BakerStreet, 221b",",")
         );
     }
 

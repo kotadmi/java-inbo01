@@ -13,7 +13,7 @@ public class ExceptionDemoTest {
         exceptionDemo.run();
     }
 
-    @Test
+    @Test(expected = ArithmeticException.class)
     public void check() {
         ExceptionDemo exceptionDemo = new ExceptionDemo();
         exceptionDemo.check();

@@ -6,7 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
         Task task = new Task(
-                "Conan O'Brien",
+                "Mary Sue",
                 new Date(System.currentTimeMillis() + 7 * 1000 * 60 * 60 * 24)
         );
         System.out.println(task.getAssignee() + " should complete task in "

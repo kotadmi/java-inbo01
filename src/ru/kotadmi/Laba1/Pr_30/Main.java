@@ -6,7 +6,7 @@ public class Main {
         order.add(
                 new Drink(
                         200,
-                        "Espresso",
+                        "Latte",
                         "Coffee",
                         0,
                         DrinkTypeEnum.COFFEE
@@ -14,8 +14,8 @@ public class Main {
         );
         order.add(
                 new Dish(
-                        250,
-                        "Cheesecake",
+                        399,
+                        "Maffin",
                         "Dessert"
                 )
         );
