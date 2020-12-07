@@ -2,7 +2,6 @@ package ru.kotadmi.Laba1.Pr_13.Ex3;
 
 import java.util.*;
 
-
 public class MergeLists {
     Student[] studentsm = {
             new Student( "Archi", 1,20, 4.5),
