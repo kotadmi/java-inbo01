@@ -49,9 +49,9 @@ public class SortingStudentsByGPA implements Comparator {
         if (array.length > 1) {
             Student[] left = leftHalf(array);
             Student[] right = rightHalf(array);
-            mergeSort(left);//сортировка левой части части
-            mergeSort(right);//сортировка правой части
-            merge(array, left, right);//сортировка обеих частей
+            mergeSort(left);
+            mergeSort(right);
+            merge(array, left, right);
         }
     }
     public static Student[] leftHalf(Student[] array) {
